@@ -55,7 +55,7 @@ body {
     pointer-events: none;
     transform: translate(-50%, -50%);
     z-index: 9999;
-    background-image: url("clicks.png");
+    background-image: url("Images/clicks.png");
     background-size: cover;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
@@ -94,3 +94,56 @@ body {
     transition: top 1s ease-out, opacity 1s ease-out;
   }
   
+  .section-title {
+    text-align: center;
+  }
+  
+  .project {
+    position: relative;
+  }
+  
+  .project-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .project-text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .project-details {
+    text-align: center;
+  }
