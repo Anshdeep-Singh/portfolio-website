@@ -27,10 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Hover handling
     projectElements.forEach(function(project) {
-      project.addEventListener('mouseenter', function() {
-        clearInterval(projectTimer);
-      });
-  
+ 
       project.addEventListener('mouseleave', function() {
         projectTimer = setInterval(rotateProjects, projectInterval);
       });
