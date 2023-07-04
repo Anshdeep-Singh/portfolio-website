@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <!-- Add CSS styling and animation library -->
+  <link rel="stylesheet" href="animate.min.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 600px;
+      text-align: center;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container animate__animated animate__fadeIn">
+    <h1>My Story</h1>
+
+    <div id="about-content">
+      <div class="animate__animated animate__fadeInLeft">
+        <p>I am an Electronics Engineer in search of knowledge.</p>
+      </div>
+
+      <div class="animate__animated animate__fadeInRight">
+        <ul>
+          <li>
+            <img src="me1.jpeg" alt="Person 1" class="avatar animate__animated animate__bounceIn">
+            <div>
+              <h3 class="animate__animated animate__bounceIn">Vancouver, BC</h3>
+              <p class="animate__animated animate__fadeIn">Currently pursuing Post Bacclaurate in Data Analytics</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
