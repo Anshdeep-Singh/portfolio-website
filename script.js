@@ -16,7 +16,7 @@ const products = [
     {
       name: 'Linkedin Profile',
       image: 'linkedin.png',
-      description: 'My linkedin profile.',
+      description: 'My linkedin profile. I am a currently pursuing my career in Data Analytics',
       link: 'https://www.linkedin.com/in/AnshdeepSingh369/'
     },
   ];
