@@ -19,6 +19,13 @@ const products = [
       description: 'My linkedin profile. I am a currently pursuing my career in Data Analytics',
       link: 'https://www.linkedin.com/in/AnshdeepSingh369/'
     },
+    {
+      name: 'Another NFT Profile',
+      image: 'nft2.png',
+      description: 'It features on of my previous works in NFT. Most viewed was Cards - The Universe collection',
+      link: 'https://crypto.com/nft/profile/anshdeep_singh?tab=created'
+    },
+    
   ];
 
   // Function to generate product cards dynamically
